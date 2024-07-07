@@ -115,7 +115,7 @@ public class lotto2 {
 
         // 화면 전환용 프롬프트
         pause();
-    }   
+    }
 
     static int[] getLottoNums() {
         int[] nums = new int[6];
@@ -166,7 +166,7 @@ public class lotto2 {
             else
                 System.out.println();
         }
-    }    
+    }
 
     static void pause() {
         Scanner sc = new Scanner(System.in);
@@ -175,14 +175,12 @@ public class lotto2 {
     }
 
     static void sort(int[] nums) {
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 5 - i; j++) {
+        for (int i = 0; i < 5; i++)
+            for (int j = 0; j < 5 - i; j++)
                 if (nums[j] > nums[j + 1]) {
                     int temp = nums[j];
                     nums[j] = nums[j + 1];
                     nums[j + 1] = temp;
                 }
-            }
-        }
     }
 }
