@@ -1,4 +1,1 @@
-INDEX VERSION 1.134+C:\8th\Work\javaprj\.metadata\.plugins\org.eclipse.jdt.core
-3695463370.index
-3702785518.index
-1865797976.index
+INDEX VERSION 1.134+C:\8th\Work\newlecpj\.metadata\.plugins\org.eclipse.jdt.core
